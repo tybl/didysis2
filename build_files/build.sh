@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y btop clang-tools-extra cmake fd-find fzf gcc-c++ git git-lfs htop neovim stow tmux tokei
+dnf5 install -y btop clang-devel clang-tools-extra cmake fd-find fzf gcc-c++ git-lfs htop libxml2-devel neovim protobuf-devel rustup stow tmux tokei
 dnf5 clean all
 
 # Use a COPR Example:
