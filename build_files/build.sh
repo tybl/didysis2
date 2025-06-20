@@ -11,7 +11,6 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y btop clang-devel clang-tools-extra cmake fd-find fzf gcc-c++ git-lfs htop libxml2-devel neovim protobuf-devel rustup stow tmux tokei
-dnf5 clean all
 
 # Use a COPR Example:
 #
